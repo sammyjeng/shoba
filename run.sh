@@ -1,17 +1,36 @@
 #!bin/bash
 
-echo "  "
-echo "***DON'T LOGIN INTO OR MESS WITH THE SERVICES WHICH REQUIRE USER AUTHENTICATON****"
-echo "  "
-echo "***THE AUTHOUR OF THIS SCRIPT DOESN'T ENCOURAGE ILLEGAL/UNETHIACAL ACTIVITIES***"
-echo "  "
-echo "***DON'T OVERUSE THIS SCRIPT USING TOR, WHICH WILL AFFECT THE EXPERINCE OF THE FELLOW TOR USERS!!***"
-echo "  "
-echo "***ENABLE YOUR FAVORITE VPN SERVICE OR USE TOR BROWSER(YOU GOTTA!! IF YOU WANT TO REMAIN SLIGHTLY ANONYMOUS)***"
-sleep 1
-echo "  "
-echo "***DON'T GET INTO TROUBLE, USE IT WISELY AND BE RESPONIBLE***"
-sleep 1
+    export BLUE='\033[1;94m'
+	export GREEN='\033[1;92m'
+	export RED='\033[1;91m'
+	export RESETCOLOR='\033[1;00m'
+	echo -e "${RED}      _               _    _     _"
+    echo "  ___| |__   ___  ___| | _(_) __| |  "
+    echo " / __| '_ \ / _ \/ __| |/ / |/ _  |  "
+    echo " \__ \ | | | (_) \__ \   <| | (_| |  "
+    echo " |___/_| |_|\___/|___/_|\_\_|\__,_|  "
+    echo "                                     "
+    echo -e "${NC}"
+
+
+
+
+
+
+
+    echo -e "${GREEN}"
+    echo "  "
+    echo "***DON'T LOGIN INTO OR MESS WITH THE SERVICES WHICH REQUIRE USER AUTHENTICATON****"
+    echo "  "
+    echo "***THE AUTHOUR OF THIS SCRIPT DOESN'T ENCOURAGE ILLEGAL/UNETHIACAL ACTIVITIES***"
+    echo "  "
+    echo "***DON'T OVERUSE THIS SCRIPT USING TOR, WHICH WILL AFFECT THE EXPERINCE OF THE FELLOW TOR USERS!!***"
+    echo "  "
+    echo "***ENABLE YOUR FAVORITE VPN SERVICE OR USE TOR BROWSER(YOU GOTTA!! IF YOU WANT TO REMAIN SLIGHTLY ANONYMOUS)***"
+    sleep 1
+    echo "  "
+    echo "***DON'T GET INTO TROUBLE, USE IT WISELY AND BE RESPONIBLE***"
+    sleep 1
 
 
 #function to search and download data
@@ -53,7 +72,7 @@ open_all(){
 
 #function to choose actions
 back_bone(){
-    echo "  "
+    echo -e "${BLUE} "
     echo "Here you go!!"
     echo "  "
     echo "[FYI]Those who don't have a paid membership,the downloaded results are limited to 100"
