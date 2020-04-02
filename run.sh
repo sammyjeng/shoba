@@ -37,7 +37,7 @@ function search(){
     pwd
     read -p "Do you wanna search again?[Y/n] : " re
 
-    if [[ "$re" == "Y" ||  "$re" = "y"   ]];then
+    if [[ "$re" == "Y" ||  "$re" = "y"   ]]; then
         back_bone
     else
         sleep 1
@@ -51,7 +51,7 @@ function open_all(){
     read a
     echo "  "
 
-    if [[ "$a" == "Y" ||  "$a" = "y" ]];then
+    if [[ "$a" == "Y" ||  "$a" = "y" ]]; then
         echo "type in the downloaded file(don't include the extension)"
         read -p "file name  :" q # reads the file name
         read -p "Enter the full name of your favorite web browser: 
@@ -81,7 +81,7 @@ function back_bone(){
     if [[ "$l" == "1" ]]; then
         echo "you selected the option 1"
         search
-    elif [[ "$l" = "2" ]];then
+    elif [[ "$l" = "2" ]]; then
         echo "you selected the option 2"
         open_all
     fi
