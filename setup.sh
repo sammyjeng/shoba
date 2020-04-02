@@ -5,7 +5,7 @@ echo "Create an account in shodan.io"
 echo "get the API KEY"
 
 shoset(){
-if [[ -z  "$(which shodan) " ]];then
+if [[ -z  "$(which shodan) " ]]; then
     echo "installing shodan API..."
     pip3 install shodan #will install shodan API using pip 
     echo "It is all set up.!!"
