@@ -1,4 +1,4 @@
-#!bin/bash
+#!/usr/bin/env bash
 
     export BLUE='\033[1;94m'
 	export GREEN='\033[1;92m'
@@ -11,11 +11,6 @@
     echo " |___/_| |_|\___/|___/_|\_\_|\__,_|  "
     echo "                                     "
     echo -e "${NC}"
-
-
-
-
-
 
 
     echo -e "${GREEN}"
@@ -34,7 +29,7 @@
 
 
 #function to search and download data
-search(){
+function search(){
     read -p "Enter the search term(query) :  " b 
     read -p "Save as[file name] : " n
     shodan download $n $b #this will download save a file with a given name and extension .json.gz
@@ -51,7 +46,7 @@ search(){
 }
 
 #function to open addresses in browser at once
-open_all(){
+function open_all(){
     echo "Do you want to open all the results in a browser?? BY GIVING YES YOUR BROWSER WILL OPEN SEVERAL TABS(100 BEING THE MAX) AT ONCE[Y/n]:"
     read a
     echo "  "
@@ -71,7 +66,7 @@ open_all(){
 }
 
 #function to choose actions
-back_bone(){
+function back_bone(){
     echo -e "${BLUE} "
     echo "Here you go!!"
     echo "  "
