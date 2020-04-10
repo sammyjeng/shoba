@@ -1,6 +1,3 @@
-```
-<div align="center"><img src="shoba_main_menu.png" alt="Screenshots:shoba_main_menu" width="300" /></div>
-```
 # **Installation**
 
 ## Requirements:
