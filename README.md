@@ -1,6 +1,6 @@
-#**Installation**
+# **Installation**
 
-##Requirements:
+## Requirements:
 
 -git
 -python3
@@ -8,7 +8,7 @@
 -The official Python library for Shodan
 -Shodan API-Key
 
-##Installation Commands
+## Installation Commands
 
 **Clone the repository** 
 ```bash
@@ -28,7 +28,7 @@
 ```bash
 ~/shoba$ sudo bash run.sh
 ```
-##USAGE
+## **USAGE**
 
 - setup.sh installs shodan cli(Command Line Interface) and the official Python library for Shodan.
 
@@ -36,7 +36,7 @@
 
 - It offers an user-friendly CLI.
 
-##User Disclaimer
+## **User Disclaimer**
 
 - This script should work in all the "*"nix systems which ship with bash.
 
@@ -50,9 +50,9 @@
 
 - Any actions you take upon using the script are strictly at your own risk.
 
-##***Awesome shoadan queries***
+## Awesome shoadan queries
 
-[awesome shodan queries by jakejarvis](https://github.com/jakejarvis/awesome-shodan-queries)
+[Awesome shodan queries by jakejarvis](https://github.com/jakejarvis/awesome-shodan-queries)
 
 
 
