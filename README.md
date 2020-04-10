@@ -42,7 +42,7 @@
 
 - It is recommended to use and have some experience with the shodan search engine using a web-browser before using the         script.
 
-- Read more about shodan and their services at [shodan](www.shodan.io)
+- Read more about shodan and their services at [shodan](https://shodan.io)
 
 - Read and follow the [responsible ways of disclosure](https://www.bugcrowd.com/resource/what-is-responsible-disclosure/)       incase you find anything interesting or dangerous out there.
 
