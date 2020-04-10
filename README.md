@@ -1,10 +1,13 @@
+```
+<div align="center"><img src="https://github.com/sammyjeng/shoba/blob/master/shoba_main_menu.png" alt="Screenshots:shoba_main_menu" width="300" /></div>
+```
 # **Installation**
 
 ## Requirements:
 
 - git
 - python3
-- pip
+- pip3
 - The official Python library for Shodan
 - Shodan API-Key
 
