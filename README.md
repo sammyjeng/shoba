@@ -1,5 +1,4 @@
-[img]: https://github.com/sammyjeng/shoba/blob/master/shoba_main_menu.png
-
+[img]: https://github.com/sammyjeng/shoba/blob/master/shoba_main_menu.png?raw=true
 # **Installation**
 
 ## Requirements:
