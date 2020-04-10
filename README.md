@@ -1,3 +1,4 @@
+### A screenshot of the running script
 ![alt text]( https://github.com/sammyjeng/shoba/blob/master/shoba_main_menu.png?raw=true)
 # **Installation**
 
