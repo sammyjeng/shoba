@@ -35,11 +35,11 @@
 
 - This script is just meant to be an automation for the Shodan-CLI(The query filters from CLI require user to have Query        credits.)
 
+- This script should work in most of the linux systems.
+
 - It offers an user-friendly CLI.
 
 ## **User Disclaimer**
-
-- This script should work in all the "*"nix systems which ship with bash.
 
 - It is recommended to use and have some experience with the shodan search engine using a web-browser before using the         script.
 
