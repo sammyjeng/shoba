@@ -4,13 +4,13 @@
 # by <jenge0x00@pm.me> < https://github.com/sammyjeng/shoba.git>
 # ------------------------------------------------------------------------------------------------
 
-#basic information
+#A badass banner
     clear
     export BLUE='\033[1;94m'
-	export GREEN='\033[1;92m'
-	export RED='\033[1;91m'
-	export RESETCOLOR='\033[1;00m'
-	echo -e "${RED}"
+    export GREEN='\033[1;92m'
+    export RED='\033[1;91m'
+    export RESETCOLOR='\033[1;00m'
+    echo -e "${RED}"
     echo "      _           _             "
     echo "     | |         | |            "
     echo "  ___| |__   ___ | |__   __ _   "
