@@ -24,13 +24,8 @@
     echo -e "${RESETCOLOR}"
 
 
-warning=true
 #function to display warnings
 warnings(){
-    if [[ "$warning" = false ]]; then
-        return 0
-    else
-        if [[ "$warning"  = true ]]; then
             echo -e "${RED}"
             echo "  "
             echo "                          ⚠ IMPORTANT⚠ "
@@ -52,8 +47,6 @@ warnings(){
             echo "➤ DON'T GET INTO TROUBLE, USE IT WISELY AND BE RESPONIBLE."
             sleep 15
             clear
-        fi
-    fi
 main_menu
 }
 
