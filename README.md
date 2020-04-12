@@ -1,5 +1,6 @@
-### A screenshot of the running script
-![alt text]( https://github.com/sammyjeng/shoba/blob/master/shoba_main_menu.png?raw=true)
+# How to:
+[![](https://asciinema.org/a/318819.svg)](https://asciinema.org/a/318819)
+
 # **Installation**
 
 ## Requirements:
@@ -56,5 +57,7 @@
 
 - [Awesome shodan queries by jakejarvis](https://github.com/jakejarvis/awesome-shodan-queries)
 
-
+### Screenshots of the running script
+ ![alt text]( https://github.com/sammyjeng/shoba/blob/master/shoba_main_menu.png?raw=true)
+ ![alt text]( https://github.com/sammyjeng/shoba/blob/master/shoba_task_menu.png?raw=true)
 
