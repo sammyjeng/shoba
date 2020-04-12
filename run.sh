@@ -79,7 +79,10 @@ function open_all(){
     echo " "
     yes_no "open all the results in a web-browser?" &&
     if [[ "$1" ==  "y" || "Y" ]]; then
-        echo "Type in name of the downloaded file(don't include the extension)↶"
+        echo "Type in the name of the downloaded file(don't include the extension)↶"
+        echo " "
+        ls | grep .json.gz
+        echo " "
         read -p "file name  :" q # reads the file name
         read -p "Enter the full name of your favorite web browser:↶
         $(echo "➤ firefox")
