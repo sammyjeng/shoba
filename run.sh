@@ -73,7 +73,7 @@ function search(){
     fi
 }
 
-#function to open all the IP addresses in web-browser
+#function to open 10[hey you!! if you want to increase the number, sure do)addresses in web-browser
 function open_em(){
     echo -e ${BLUE}
     yes_no "open the results in a web-browser?" &&
@@ -83,7 +83,7 @@ function open_em(){
         echo -e ${RED}
         ls | grep .json.gz
         echo " "
-        echo "Type in the name of the downloaded file(don't include the extension)↶"
+        echo "Type in the name of the downloaded file(don't include the file extension)↶"
         echo -e ${BLUE}
         read -p "file name  :" q # reads the file name
         read -p "Enter the full name of your favorite web browser:↶
