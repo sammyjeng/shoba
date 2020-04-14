@@ -74,22 +74,27 @@ function search(){
 }
 
 #function to open all the IP addresses in web-browser
-function open_all(){
+function open_em(){
     echo -e ${BLUE}
-    echo " "
-    yes_no "open all the results in a web-browser?" &&
+    yes_no "open the results in a web-browser?" &&
     if [[ "$1" ==  "y" || "Y" ]]; then
-        echo "Type in the name of the downloaded file(don't include the extension)↶"
         echo " "
+        echo "list of downloade files: "
+        echo -e ${RED}
         ls | grep .json.gz
         echo " "
+        echo "Type in the name of the downloaded file(don't include the extension)↶"
+        echo -e ${BLUE}
         read -p "file name  :" q # reads the file name
         read -p "Enter the full name of your favorite web browser:↶
         $(echo "➤ firefox")
         $(echo "➤ brave-browser --incognito" )
         $(echo "➤ chrome-browser..etc")  : "  br
         echo "  "
-        $br $(shodan parse --fields ip_str,port --separator : $q.json.gz)
+        echo "opening ten tabs at once, close those tabs to open the next ten."
+        echo "saving results in [filename].txt ;)"
+        shodan parse --fields ip_str,port,org --separator : $q.json.gz >> $q.txt
+        ((shodan parse --fields ip_str,port --separator : $q.json.gz) | xargs -n 10 $br) > /dev/null 2>&1
         clear
         select_task
     fi
@@ -100,7 +105,8 @@ function scan() {
     echo -e "${BLUE} ➥ Enter the IP of the host : "
     read -p "[IPv4 format x . x . x . x] ➠ " ip_4
 
-    shodan host $ip_4
+    shodan host $ip_4 | tee $ip_4".txt"
+
     select_task
 }
 
@@ -159,7 +165,7 @@ function select_task(){
                 search
             ;;
             2)
-                open_all
+                open_em
             ;;
             3)
                 scan
