@@ -53,6 +53,6 @@
 
 - Any actions you take upon using the script are strictly at your own risk.
 
-## Awesome shoadan queries
+## Awesome shodan queries
 
 - [Awesome shodan queries by jakejarvis](https://github.com/jakejarvis/awesome-shodan-queries)
