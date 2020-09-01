@@ -21,15 +21,13 @@
 ```bash
 ~$ cd shoba
 ```
-**Run it (remove sudo if you already have root permissions)**
-
 **To download the requirements**
 ```bash
-~/shoba$ sudo bash setup.sh
+~/shoba$ bash setup.sh
 ```
 **To run the script**
 ```bash
-~/shoba$ sudo bash run.sh
+~/shoba$ bash run.sh
 ```
 ## **USAGE**
 
